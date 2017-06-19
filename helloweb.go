@@ -11,7 +11,7 @@ func main() {
 	if port == "" {
 		port = "8080"
 	}
-	fmt.PrintF("port:", port)
+	fmt.Printf("port:"+port)
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request){
 		fmt.Fprintf(w, "Hello, Web")
 	})
