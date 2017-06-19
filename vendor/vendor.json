@@ -2,5 +2,9 @@
 	"comment": "",
 	"ignore": "test",
 	"package": [],
-	"rootPath": "github.com/hephaestic/helloweb"
+	"rootPath": "github.com/hephaestic/helloweb",
+	"heroku": {
+		"install":["./..."],
+		"goversion": "go1.8"
+	}
 }
